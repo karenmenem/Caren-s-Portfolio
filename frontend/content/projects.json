@@ -1,0 +1,148 @@
+{
+  "projects": [
+    {
+      "id": "titan-kicks",
+      "name": "Titan Kicks",
+      "website": "https://titanskicks.com",
+      "description": "Titan Kicks was a well-known physical store before moving online. The new Shopify site cut costs, led him to close the onsite location, and focus on e-commerce — conversion and sales are now significantly stronger.",
+      "images": {
+        "desktop": "/projects/titan-kicks/desktop.jpg",
+        "mobile": "/projects/titan-kicks/mobile.png"
+      },
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "klugtoys",
+      "name": "Klug Toys",
+      "website": "https://klugtoys.com",
+      "description": "Fully custom-coded Shopify store for a Dubai-based retailer of toys and board games for kids. A tailored build that raised conversion by 35% while keeping the brand playful and easy to shop.",
+      "images": {
+        "desktop": "/projects/klugtoys/desktop.png",
+        "mobile": "/projects/klugtoys/mobile.png"
+      },
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "la-veia",
+      "name": "La Veia",
+      "website": null,
+      "description": "Beauty brand built around a trending makeup bag and complementary products. The line ran for three years and officially sold out — the brand is now closed as I began a new chapter elsewhere.",
+      "images": {
+        "desktop": "/projects/la-veia/desktop.png",
+        "mobile": "/projects/la-veia/mobile.jpg"
+      },
+      "order": 3,
+      "published": true
+    },
+    {
+      "id": "rakwati",
+      "name": "Rakwati",
+      "website": "https://rakwati.com",
+      "description": "Coffee accessories e-commerce store. Within a focused budget, I reshaped the site to feel more professional and direct — clearer paths to purchase that strengthened sales and customer engagement.",
+      "images": {
+        "desktop": "/projects/rakwati/desktop.jpg",
+        "mobile": "/projects/rakwati/mobile.png"
+      },
+      "order": 4,
+      "published": true
+    },
+    {
+      "id": "eloralivings",
+      "name": "Elora Livings",
+      "website": "https://eloralivings.com",
+      "description": "Kitchen-focused Shopify store for home and dining essentials. A clean, product-led layout that highlights collections and makes it easy for customers to browse and buy online.",
+      "images": {
+        "desktop": "/projects/eloralivings/desktop.jpg",
+        "mobile": null
+      },
+      "order": 5,
+      "published": true
+    },
+    {
+      "id": "rimalalmisk",
+      "name": "Rimal Al Misk",
+      "website": "https://rimalalmisk.com",
+      "description": "Shopify store — theme customization, UX improvements, and conversion-focused updates.",
+      "images": {
+        "desktop": "/projects/rimalalmisk/desktop.jpg",
+        "mobile": "/projects/rimalalmisk/mobile.png"
+      },
+      "order": 6,
+      "published": false
+    },
+    {
+      "id": "aureve",
+      "name": "Aureve",
+      "website": "https://aureve.com",
+      "description": "Shopify store — design, custom sections, and ongoing optimization.",
+      "images": {
+        "desktop": "/projects/aureve/desktop.jpg",
+        "mobile": "/projects/aureve/mobile.png"
+      },
+      "order": 7,
+      "published": false
+    },
+    {
+      "id": "mavricharms",
+      "name": "Mavr Charms",
+      "website": "https://mavricharms.com",
+      "description": "Shopify store — theme work, product presentation, and conversion optimization.",
+      "images": {
+        "desktop": "/projects/mavricharms/desktop.jpg",
+        "mobile": "/projects/mavricharms/mobile.png"
+      },
+      "order": 8,
+      "published": false
+    },
+    {
+      "id": "sallyshoesandbags",
+      "name": "Sally Shoes & Bags",
+      "website": "https://sallyshoesandbags.com",
+      "description": "Shopify store — design refresh, custom sections, and sales-focused improvements.",
+      "images": {
+        "desktop": "/projects/sallyshoesandbags/desktop.jpg",
+        "mobile": "/projects/sallyshoesandbags/mobile.png"
+      },
+      "order": 9,
+      "published": false
+    },
+    {
+      "id": "etincellelb",
+      "name": "Etincelle",
+      "website": "https://etincellelb.com",
+      "description": "Shopify store — branding, layout, and e-commerce optimization for the Lebanese market.",
+      "images": {
+        "desktop": "/projects/etincellelb/desktop.jpg",
+        "mobile": "/projects/etincellelb/mobile.png"
+      },
+      "order": 10,
+      "published": false
+    },
+    {
+      "id": "mobilux",
+      "name": "Mobilux",
+      "website": "https://mobilux.com",
+      "description": "Shopify store — custom theme work, UX, and measurable performance gains.",
+      "images": {
+        "desktop": "/projects/mobilux/desktop.jpg",
+        "mobile": "/projects/mobilux/mobile.png"
+      },
+      "order": 11,
+      "published": false
+    },
+    {
+      "id": "galleria",
+      "name": "Galleria",
+      "website": "https://galleria.com",
+      "description": "Shopify store — design, development, and conversion-focused improvements.",
+      "images": {
+        "desktop": "/projects/galleria/desktop.jpg",
+        "mobile": "/projects/galleria/mobile.png"
+      },
+      "order": 12,
+      "published": false
+    }
+  ]
+}
