@@ -5,30 +5,35 @@
       "name": "Titan Kicks",
       "website": "https://titanskicks.com",
       "description": "Titan Kicks was a well-known physical store before moving online. The new Shopify site cut costs, led him to close the onsite location, and focus on e-commerce — conversion and sales are now significantly stronger.",
+      "tags": ["Full build", "Conversion", "SEO", "E-commerce"],
       "images": {
-        "desktop": "/projects/titan-kicks/desktop.jpg",
+        "desktop": "/projects/titan-kicks/desktop.png",
         "mobile": "/projects/titan-kicks/mobile.png"
       },
       "order": 1,
-      "published": true
+      "published": true,
+      "featured": true
     },
     {
       "id": "klugtoys",
       "name": "Klug Toys",
       "website": "https://klugtoys.com",
       "description": "Fully custom-coded Shopify store for a Dubai-based retailer of toys and board games for kids. A tailored build that raised conversion by 35% while keeping the brand playful and easy to shop.",
+      "tags": ["Custom code", "Liquid", "Conversion", "UI / UX"],
       "images": {
         "desktop": "/projects/klugtoys/desktop.png",
         "mobile": "/projects/klugtoys/mobile.png"
       },
       "order": 2,
-      "published": true
+      "published": true,
+      "featured": true
     },
     {
       "id": "la-veia",
       "name": "La Veia",
       "website": null,
       "description": "Beauty brand built around a trending makeup bag and complementary products. The line ran for three years and officially sold out — the brand is now closed as I began a new chapter elsewhere.",
+      "tags": ["Brand build", "Custom sections", "SEO", "UI / UX"],
       "images": {
         "desktop": "/projects/la-veia/desktop.png",
         "mobile": "/projects/la-veia/mobile.jpg"
@@ -41,6 +46,7 @@
       "name": "Rakwati",
       "website": "https://rakwati.com",
       "description": "Coffee accessories e-commerce store. Within a focused budget, I reshaped the site to feel more professional and direct — clearer paths to purchase that strengthened sales and customer engagement.",
+      "tags": ["UI / UX", "Conversion", "Theme customization", "Mobile"],
       "images": {
         "desktop": "/projects/rakwati/desktop.jpg",
         "mobile": "/projects/rakwati/mobile.png"
@@ -53,9 +59,10 @@
       "name": "Elora Livings",
       "website": "https://eloralivings.com",
       "description": "Kitchen-focused Shopify store for home and dining essentials. A clean, product-led layout that highlights collections and makes it easy for customers to browse and buy online.",
+      "tags": ["UI / UX", "Collections", "Theme customization", "Mobile"],
       "images": {
-        "desktop": "/projects/eloralivings/desktop.jpg",
-        "mobile": null
+        "desktop": "/projects/eloralivings/desktop.png",
+        "mobile": "/projects/eloralivings/mobile.png"
       },
       "order": 5,
       "published": true
@@ -64,60 +71,118 @@
       "id": "rimalalmisk",
       "name": "Rimal Al Misk",
       "website": "https://rimalalmisk.com",
-      "description": "Shopify store — theme customization, UX improvements, and conversion-focused updates.",
+      "description": "High-end perfumes and scents. A premium Shopify experience for a luxury fragrance brand — conversion has increased by more than 27% since the new website launched.",
+      "tags": ["UI / UX", "Conversion", "Premium design", "Liquid"],
       "images": {
-        "desktop": "/projects/rimalalmisk/desktop.jpg",
+        "desktop": "/projects/rimalalmisk/desktop.png",
         "mobile": "/projects/rimalalmisk/mobile.png"
       },
       "order": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "aureve",
       "name": "Aureve",
-      "website": "https://aureve.com",
-      "description": "Shopify store — design, custom sections, and ongoing optimization.",
+      "website": "https://aurevelb.com",
+      "description": "Fragrances, bags, and wallets for men and women. After a fully customized website redesign, the brand has scaled strongly with conversion up 40%.",
+      "tags": ["Custom code", "Full redesign", "Conversion", "UI / UX"],
       "images": {
-        "desktop": "/projects/aureve/desktop.jpg",
+        "desktop": "/projects/aureve/desktop.png",
         "mobile": "/projects/aureve/mobile.png"
       },
       "order": 7,
-      "published": false
+      "published": true,
+      "featured": true
+    },
+    {
+      "id": "merakyart",
+      "name": "Meraky Art",
+      "website": "https://merakyart.myshopify.com",
+      "description": "Shopify store for a talented Lebanese painter and studio — ready-to-buy artwork and custom commissions. Customer engagement has been strong since launch, and the brand has progressed quickly online.",
+      "tags": ["Full build", "Custom sections", "Collections", "UI / UX"],
+      "images": {
+        "desktop": "/projects/merkayart/desktop.png",
+        "mobile": "/projects/merkayart/mobile.png"
+      },
+      "order": 8,
+      "published": true
+    },
+    {
+      "id": "mist-musk",
+      "name": "Mist & Musk",
+      "website": "https://mist-musk.myshopify.com",
+      "description": "Mists and musk at approachable prices — a clean, modern Shopify store designed to feel elevated and trustworthy, never cheap.",
+      "tags": ["UI / UX", "Branding", "Theme customization", "Mobile"],
+      "images": {
+        "desktop": "/projects/mist-musk/desktop.png",
+        "mobile": "/projects/mist-musk/mobile.png"
+      },
+      "order": 9,
+      "published": true
+    },
+    {
+      "id": "sallyshoesandbags",
+      "name": "Sally Shoes & Bags",
+      "website": "https://sallyshoesandbags.com",
+      "description": "Custom-made shoes and bags for women. Helped the brand move from in-store only to a setup where the physical shop and online store work together — reaching more customers without losing the personal touch.",
+      "tags": ["Full build", "E-commerce", "UI / UX", "Conversion"],
+      "images": {
+        "desktop": "/projects/sallyshoesandbags/desktop.png",
+        "mobile": "/projects/sallyshoesandbags/mobile.png"
+      },
+      "order": 10,
+      "published": true
+    },
+    {
+      "id": "yallakids",
+      "name": "Yalla Kids",
+      "website": "https://getyallakids.com",
+      "description": "Shopify store for children's toys and play essentials — a fun, easy-to-shop experience built for parents looking for quality products for their kids.",
+      "tags": ["Full build", "UI / UX", "Collections", "Mobile"],
+      "images": {
+        "desktop": "/projects/yallakids/desktop.png",
+        "mobile": "/projects/yallakids/mobile.png"
+      },
+      "order": 11,
+      "published": true
+    },
+    {
+      "id": "etincellelb",
+      "name": "Etincelle",
+      "website": null,
+      "description": "Handmade candle brand — now closed. I built their Shopify store during their active period; conversion and sales were strong until the owner paused the business to focus on other work.",
+      "tags": ["Full build", "Conversion", "UI / UX", "Branding"],
+      "images": {
+        "desktop": "/projects/etincellelb/desktop.png",
+        "mobile": null
+      },
+      "order": 12,
+      "published": true
+    },
+    {
+      "id": "gimmick",
+      "name": "Gimmick",
+      "website": "https://gimmickstop.com",
+      "description": "Digital and metal toys store — a lively Shopify shop built for collectors and kids alike. Orders were flying the last time I checked, with strong momentum behind the brand.",
+      "tags": ["Full build", "UI / UX", "Collections", "Speed"],
+      "images": {
+        "desktop": "/projects/gimmick/desktop.png",
+        "mobile": "/projects/gimmick/mobile.png"
+      },
+      "order": 13,
+      "published": true
     },
     {
       "id": "mavricharms",
       "name": "Mavr Charms",
       "website": "https://mavricharms.com",
       "description": "Shopify store — theme work, product presentation, and conversion optimization.",
+      "tags": ["Theme customization", "Conversion", "UI / UX", "Liquid"],
       "images": {
         "desktop": "/projects/mavricharms/desktop.jpg",
         "mobile": "/projects/mavricharms/mobile.png"
       },
-      "order": 8,
-      "published": false
-    },
-    {
-      "id": "sallyshoesandbags",
-      "name": "Sally Shoes & Bags",
-      "website": "https://sallyshoesandbags.com",
-      "description": "Shopify store — design refresh, custom sections, and sales-focused improvements.",
-      "images": {
-        "desktop": "/projects/sallyshoesandbags/desktop.jpg",
-        "mobile": "/projects/sallyshoesandbags/mobile.png"
-      },
-      "order": 9,
-      "published": false
-    },
-    {
-      "id": "etincellelb",
-      "name": "Etincelle",
-      "website": "https://etincellelb.com",
-      "description": "Shopify store — branding, layout, and e-commerce optimization for the Lebanese market.",
-      "images": {
-        "desktop": "/projects/etincellelb/desktop.jpg",
-        "mobile": "/projects/etincellelb/mobile.png"
-      },
-      "order": 10,
+      "order": 14,
       "published": false
     },
     {
@@ -125,11 +190,12 @@
       "name": "Mobilux",
       "website": "https://mobilux.com",
       "description": "Shopify store — custom theme work, UX, and measurable performance gains.",
+      "tags": ["Custom code", "Speed", "UI / UX", "Technical fixes"],
       "images": {
         "desktop": "/projects/mobilux/desktop.jpg",
         "mobile": "/projects/mobilux/mobile.png"
       },
-      "order": 11,
+      "order": 15,
       "published": false
     },
     {
@@ -137,11 +203,12 @@
       "name": "Galleria",
       "website": "https://galleria.com",
       "description": "Shopify store — design, development, and conversion-focused improvements.",
+      "tags": ["UI / UX", "Conversion", "Theme customization", "SEO"],
       "images": {
         "desktop": "/projects/galleria/desktop.jpg",
         "mobile": "/projects/galleria/mobile.png"
       },
-      "order": 12,
+      "order": 16,
       "published": false
     }
   ]

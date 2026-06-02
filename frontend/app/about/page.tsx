@@ -21,7 +21,7 @@ export default function AboutPage() {
 
       <div className="mt-10 max-w-2xl space-y-6 text-lg leading-relaxed text-muted">
         <p>
-          I&apos;m Caren, 22, and I&apos;ve been building on Shopify for three
+          I&apos;m Karen, 22, and I&apos;ve been building on Shopify for three
           years. My path started when I launched my first e‑commerce brand,{" "}
           <span className="text-foreground">La Veia</span> — that project pulled
           me into every layer of the work, from storefront design and custom
@@ -32,7 +32,7 @@ export default function AboutPage() {
           I loved the process enough to keep going. Today I run two additional
           brands alongside La Veia, and I&apos;ve optimized and delivered work on
           more than{" "}
-          <span className="text-foreground">40 Shopify stores</span> with clear,
+          <span className="text-foreground">30–40 Shopify stores</span> with clear,
           measurable improvements in speed, conversion, and how the site feels
           to use.
         </p>

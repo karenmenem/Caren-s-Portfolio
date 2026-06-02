@@ -11,10 +11,16 @@ export type Project = {
   };
   order: number;
   published: boolean;
+  featured?: boolean;
+  tags: string[];
 };
 
 export function getProjects(): Project[] {
   return projectsData.projects
     .filter((p) => p.published)
     .sort((a, b) => a.order - b.order);
+}
+
+export function getFeaturedProjects(): Project[] {
+  return getProjects().filter((p) => p.featured);
 }

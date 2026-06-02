@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -9,9 +10,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Caren Menhem | Shopify Portfolio",
+  title: "Karen Menhem | Shopify Portfolio",
   description:
-    "Portfolio showcasing Shopify stores and e-commerce work by Caren Menhem.",
+    "Portfolio showcasing Shopify stores and e-commerce work by Karen Menhem.",
 };
 
 export default function RootLayout({
@@ -21,9 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} min-h-screen antialiased`}>
+      <body className={`${geistSans.variable} flex min-h-screen flex-col antialiased`}>
         <Header />
-        <main>{children}</main>
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -14,6 +14,18 @@ const contactItems = [
     value: "+55 45 99142 9959",
     href: "tel:+5545991429959",
   },
+  {
+    label: "LinkedIn",
+    value: "karen-menhem",
+    href: "https://www.linkedin.com/in/karen-menhem-329a72361/",
+    external: true,
+  },
+  {
+    label: "GitHub",
+    value: "karenmenem",
+    href: "https://github.com/karenmenem",
+    external: true,
+  },
 ] as const;
 
 export default function ContactPage() {
@@ -30,14 +42,17 @@ export default function ContactPage() {
         and collaborations.
       </p>
       <ul className="mt-12 divide-y divide-border border-y border-border">
-        {contactItems.map(({ label, value, href }) => (
+        {contactItems.map(({ label, value, href, ...rest }) => (
           <li key={label} className="flex flex-col gap-1 py-6 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
             <span className="text-sm font-medium uppercase tracking-widest text-muted">
               {label}
             </span>
             <a
               href={href}
-              className="text-lg text-foreground underline-offset-4 transition-colors hover:underline"
+              {...("external" in rest && rest.external
+                ? { target: "_blank", rel: "noopener noreferrer" }
+                : {})}
+              className="text-lg text-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
             >
               {value}
             </a>

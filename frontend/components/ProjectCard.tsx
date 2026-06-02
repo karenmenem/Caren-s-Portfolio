@@ -13,7 +13,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   const websiteLabel = project.website?.replace(/^https?:\/\//, "");
 
   return (
-    <article className="border-b border-border py-12 last:border-b-0 sm:py-16">
+    <article id={project.id} className="border-b border-border py-12 last:border-b-0 sm:py-16 scroll-mt-24">
       <h2 className="text-2xl font-semibold tracking-tight text-foreground">
         {project.name}
       </h2>
@@ -22,7 +22,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           href={project.website}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-1 inline-block text-sm text-muted underline-offset-4 hover:text-foreground hover:underline"
+          className="mt-1 inline-block text-sm text-muted underline-offset-4 hover:text-accent hover:underline"
         >
           {websiteLabel}
         </a>
@@ -32,6 +32,18 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <p className="mt-4 max-w-2xl leading-relaxed text-muted">
         {project.description}
       </p>
+      {project.tags.length > 0 && (
+        <ul className="mt-4 flex flex-wrap gap-2">
+          {project.tags.map((tag) => (
+            <li
+              key={tag}
+              className="border border-border px-3 py-1 text-xs text-foreground"
+            >
+              {tag}
+            </li>
+          ))}
+        </ul>
+      )}
 
       {hasMobile && project.images.mobile ? (
         <div className="mt-10 flex flex-col gap-8 lg:grid lg:grid-cols-[minmax(0,1fr)_200px] lg:grid-rows-[auto_1fr] lg:items-start lg:gap-x-8 lg:gap-y-4">
