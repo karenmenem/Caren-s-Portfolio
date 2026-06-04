@@ -19,7 +19,7 @@ function MenuIcon({ open }: { open: boolean }) {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="1.5"
+      strokeWidth="2"
       aria-hidden
     >
       {open ? (
@@ -48,17 +48,17 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
+      <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6 sm:py-5">
         <Link
           href="/"
-          className="text-base font-semibold tracking-tight text-foreground sm:text-lg"
+          className="min-w-0 shrink text-base font-semibold tracking-tight text-foreground sm:text-lg"
         >
           Karen Menhem
         </Link>
 
-        {/* Desktop navigation */}
+        {/* Desktop navigation — only on large screens */}
         <nav
-          className="hidden items-center gap-6 md:flex lg:gap-8"
+          className="hidden shrink-0 items-center gap-6 lg:flex lg:gap-8"
           aria-label="Main"
         >
           {navLinks.map(({ href, label }) => (
@@ -74,10 +74,10 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Mobile menu button */}
+        {/* Mobile menu button — phones & tablets */}
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center md:hidden"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm border border-border bg-background lg:hidden"
           onClick={() => setMenuOpen((open) => !open)}
           aria-expanded={menuOpen}
           aria-controls="mobile-nav"
@@ -92,13 +92,13 @@ export default function Header() {
         <>
           <button
             type="button"
-            className="fixed inset-0 top-[57px] z-40 bg-foreground/20 md:hidden"
+            className="fixed inset-0 top-[65px] z-40 bg-foreground/25 lg:hidden"
             aria-label="Close menu"
             onClick={() => setMenuOpen(false)}
           />
           <nav
             id="mobile-nav"
-            className="absolute left-0 right-0 top-full z-50 border-b border-border bg-background px-4 py-4 shadow-sm md:hidden"
+            className="absolute left-0 right-0 top-full z-50 border-b border-border bg-background px-4 py-2 shadow-md lg:hidden"
             aria-label="Mobile"
           >
             <ul className="flex flex-col">
@@ -106,9 +106,9 @@ export default function Header() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className={`block rounded-sm px-2 py-3.5 text-base transition-colors hover:bg-neutral-50 hover:text-accent ${
+                    className={`block border-b border-border px-2 py-4 text-base last:border-0 transition-colors hover:text-accent ${
                       pathname === href
-                        ? "font-medium text-foreground"
+                        ? "font-semibold text-foreground"
                         : "text-muted"
                     }`}
                     onClick={() => setMenuOpen(false)}
