@@ -7,11 +7,11 @@ export default function HomePage() {
   const featured = getFeaturedProjects();
 
   return (
-    <section className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+    <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-28">
       <p className="text-sm font-medium uppercase tracking-widest text-muted">
         Shopify Developer
       </p>
-      <h1 className="mt-4 max-w-2xl text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl">
+      <h1 className="mt-4 max-w-2xl text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl lg:text-5xl">
         Shopify developer — custom stores, speed, and conversion.
       </h1>
       <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
@@ -48,16 +48,16 @@ export default function HomePage() {
 
       <Testimonials />
 
-      <div className="mt-14 flex flex-wrap gap-4">
+      <div className="mt-14 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
         <Link
           href="/work"
-          className="inline-flex items-center justify-center bg-accent px-6 py-3 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
+          className="inline-flex w-full items-center justify-center bg-accent px-6 py-3.5 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90 sm:w-auto"
         >
           View my work
         </Link>
         <Link
           href="/contact"
-          className="inline-flex items-center justify-center border border-accent px-6 py-3 text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-accent-foreground"
+          className="inline-flex w-full items-center justify-center border border-accent px-6 py-3.5 text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-accent-foreground sm:w-auto"
         >
           Contact me
         </Link>

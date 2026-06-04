@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     "Portfolio showcasing Shopify stores and e-commerce work by Karen Menhem.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -30,7 +30,7 @@ const contactItems = [
 
 export default function ContactPage() {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+    <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-28">
       <p className="text-sm font-medium uppercase tracking-widest text-muted">
         Contact
       </p>
