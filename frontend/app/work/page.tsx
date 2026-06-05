@@ -13,18 +13,18 @@ export default function WorkPage() {
         Shopify projects
       </h1>
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-        Selected stores I&apos;ve built, optimized, and designed. I&apos;ve
-        worked on{" "}
-        <span className="text-foreground">30–40 Shopify stores</span> in total
-        — the ones below are standout builds and redesigns. Many others were
-        technical fixes, speed work, and ongoing optimization, so they&apos;re
-        not featured here.
+        A selection of stores I&apos;ve built or redesigned for my own clients
+        and brands — work I can show and stand behind. I&apos;ve delivered on{" "}
+        <span className="text-foreground">30–40 Shopify stores</span> in
+        total; featured here are the strongest full builds and redesigns, plus
+        many smaller projects around speed, SEO, and technical fixes that
+        aren&apos;t listed.
       </p>
-      <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted">
-        Some live sites may look a little different now — store owners often keep
-        updating after launch with new products, collections, photos, and
-        seasonal changes. Screenshots here show the work at the time of each
-        project.
+      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+        Work done through agencies isn&apos;t included — those sites belong to
+        the agency&apos;s portfolio. Screenshots are from the time of each
+        project; live stores may look different as owners update products and
+        content.
       </p>
 
       {projects.length === 0 ? (
