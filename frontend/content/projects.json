@@ -173,6 +173,32 @@
       "published": true
     },
     {
+      "id": "capnhat",
+      "name": "Cap'n Hat",
+      "website": "https://capnhat-lb.com",
+      "description": "A full-store optimization for a brand that was struggling to generate sales. By improving the shopping experience, store structure, and conversion journey, the new site began converting visitors more effectively.",
+      "tags": ["Store optimization", "Conversion", "UI / UX", "Technical fixes"],
+      "images": {
+        "desktop": "/projects/capnhat/desktop.png",
+        "mobile": "/projects/capnhat/mobile.png"
+      },
+      "order": 14,
+      "published": true
+    },
+    {
+      "id": "zenfoam",
+      "name": "Zenfoam",
+      "website": "https://zenfoam-lb.com",
+      "description": "A simple, well-developed Shopify store built around trust and clarity, with strong social proof and a focused product page designed to support confident purchase decisions.",
+      "tags": ["Product page", "Social proof", "UI / UX", "Conversion"],
+      "images": {
+        "desktop": "/projects/zenfoam/desktop.png",
+        "mobile": "/projects/zenfoam/mobile.png"
+      },
+      "order": 15,
+      "published": true
+    },
+    {
       "id": "mavricharms",
       "name": "Mavr Charms",
       "website": "https://mavricharms.com",
@@ -182,7 +208,7 @@
         "desktop": "/projects/mavricharms/desktop.jpg",
         "mobile": "/projects/mavricharms/mobile.png"
       },
-      "order": 14,
+      "order": 16,
       "published": false
     },
     {
@@ -195,7 +221,7 @@
         "desktop": "/projects/mobilux/desktop.jpg",
         "mobile": "/projects/mobilux/mobile.png"
       },
-      "order": 15,
+      "order": 17,
       "published": false
     },
     {
@@ -208,7 +234,7 @@
         "desktop": "/projects/galleria/desktop.jpg",
         "mobile": "/projects/galleria/mobile.png"
       },
-      "order": 16,
+      "order": 18,
       "published": false
     }
   ]
